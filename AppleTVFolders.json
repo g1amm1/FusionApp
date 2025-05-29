@@ -696,7 +696,7 @@
     "textColor": "#FFFFFF",
     "backgroundColor": "#000000"
   },
-  #Genres
+  //Genres
   {
     "id": "drama",
     "name": "Drama",
@@ -866,5 +866,5 @@
     "textWeight": "Bold",
     "textColor": "#FFFFFF",
     "backgroundColor": "#000000"
-  }
+  },
   ]
