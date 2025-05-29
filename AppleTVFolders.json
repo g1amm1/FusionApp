@@ -696,6 +696,7 @@
     "textColor": "#FFFFFF",
     "backgroundColor": "#000000"
   },
+  "_comment": "GENRES",
   {
     "id": "drama",
     "name": "Drama",
