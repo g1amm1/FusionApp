@@ -696,7 +696,6 @@
     "textColor": "#FFFFFF",
     "backgroundColor": "#000000"
   },
-  //Genres
   {
     "id": "drama",
     "name": "Drama",
