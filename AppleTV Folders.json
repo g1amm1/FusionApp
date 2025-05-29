@@ -118,8 +118,6 @@
     "textColor": "#FFFFFF",
     "backgroundColor": "#000000"
   },
-
-
   {
     "id": "netlix",
     "name": "Netflix",
@@ -239,8 +237,6 @@
     "textColor": "#FFFFFF",
     "backgroundColor": "#000000"
   },  
-
-
   {
     "id": "nolan",
     "name": "Nolan",
@@ -478,9 +474,8 @@
     "textWeight": "Bold",
     "textColor": "#FFFFFF",
     "backgroundColor": "#000000"
-  }
-
-{
+  },
+  {
     "id": "1960s",
     "name": "1960s",
     "category": "Decades",
@@ -599,8 +594,7 @@
     "textColor": "#FFFFFF",
     "backgroundColor": "#000000"
   },
-
-{
+  {
     "id": "oscars",
     "name": "The Academy Awards",
     "category": "Award Winners",
