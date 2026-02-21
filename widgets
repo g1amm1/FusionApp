@@ -1,0 +1,1214 @@
+{
+  "exportType" : "fusionWidgets",
+  "exportVersion" : 1,
+  "requiredAddons" : [
+    "com.aiopicks.python.giammi"
+  ],
+  "widgets" : [
+    {
+      "dataSource" : {
+        "kind" : "collection",
+        "payload" : {
+          "items" : [
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Netflix Movies",
+                    "listSlug" : "latest-netflix-movies",
+                    "traktId" : 33032847,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Netflix Shows",
+                    "listSlug" : "latest-netflix-shows",
+                    "traktId" : 33032846,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "B35533CA-2376-4037-A26E-D55EB64C3C63",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/i.postimg.cc\/438vymsD\/Netflix.png",
+              "title" : "Netflix"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Apple TV+ Movies",
+                    "listSlug" : "latest-apple-tv-movies",
+                    "traktId" : 33032858,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Apple TV+ Shows",
+                    "listSlug" : "latest-apple-tv-shows",
+                    "traktId" : 33032855,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "5959BA15-A190-41C4-B740-9513D1678A26",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/i.postimg.cc\/k4zxNzVw\/AppleTV.png",
+              "title" : "AppleTV"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Disney+ Movies",
+                    "listSlug" : "latest-disney-movies",
+                    "traktId" : 33032861,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Disney+ Shows",
+                    "listSlug" : "latest-disney-shows",
+                    "traktId" : 33032860,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "B51B560A-AB62-4B5A-847D-22807366B51A",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/i.postimg.cc\/jSb4kpMF\/Disney.jpg",
+              "title" : "Disney+"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Amazon Prime Movies",
+                    "listSlug" : "latest-amazon-prime-movies",
+                    "traktId" : 33032854,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Amazon Prime Shows",
+                    "listSlug" : "latest-amazon-prime-shows",
+                    "traktId" : 33032850,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "2B47E3D2-BC36-4256-A2BA-CF3C533538F8",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/i.postimg.cc\/1zRcyph0\/Primevideo.png",
+              "title" : "PrimeVideo"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest HBO Max Movies",
+                    "listSlug" : "latest-hbo-max-movies",
+                    "traktId" : 33032875,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest HBO Max Shows",
+                    "listSlug" : "latest-hbo-max-shows",
+                    "traktId" : 33032872,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "hbomax",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/i.postimg.cc\/xCcvzndc\/HBOmax.png",
+              "title" : "HBO Max"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Hulu Movies",
+                    "listSlug" : "latest-hulu-movies",
+                    "traktId" : 33118923,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Hulu Shows",
+                    "listSlug" : "latest-hulu-shows",
+                    "traktId" : 33118912,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "hulu",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/i.postimg.cc\/P5QQGScr\/Hulu.png",
+              "title" : "Hulu"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Paramount+ Movies",
+                    "listSlug" : "latest-paramount-movies",
+                    "traktId" : 33032868,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Paramount+ Shows",
+                    "listSlug" : "latest-paramount-shows",
+                    "traktId" : 33032863,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "paramount",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/i.postimg.cc\/zX5RLKt6\/Paramount.png",
+              "title" : "Paramount+"
+            }
+          ]
+        }
+      },
+      "id" : "collection.7A39B1CD-C1D0-4EB8-82E6-B41E7A654224",
+      "title" : "Streaming Services",
+      "type" : "collection.row"
+    },
+    {
+      "dataSource" : {
+        "kind" : "collection",
+        "payload" : {
+          "items" : [
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Action Movies",
+                    "listSlug" : "latest-action-movies",
+                    "traktId" : 33123064,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Action Shows",
+                    "listSlug" : "latest-action-shows",
+                    "traktId" : 33122883,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "4DA39E47-9087-40EE-82BB-45F0D1815174",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/Action.png",
+              "title" : "Action"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Action & Adventure",
+                    "listSlug" : "action-adventure",
+                    "traktId" : 31085999,
+                    "username" : "ilikewatchingstuff"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "action-adventures-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/ActionAdventures.png",
+              "title" : "Action Adventures"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Action Thrillers",
+                    "listSlug" : "action-thrillers",
+                    "traktId" : 1343889,
+                    "username" : "kingkearney"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "action-thrillers-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/ActionThrillers.png",
+              "title" : "Action Thrillers"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Alien Invasions",
+                    "listSlug" : "alien-invasions",
+                    "traktId" : 30738214,
+                    "username" : "MadMapper"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "alien-invaders-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/AlienInvaders.png",
+              "title" : "Alien Invaders"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Animated Movies",
+                    "listSlug" : "latest-animated-movies",
+                    "traktId" : 33123038,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Animated Shows",
+                    "listSlug" : "latest-animated-shows",
+                    "traktId" : 33123032,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "animation-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/Animation.png",
+              "title" : "Animation"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Animation\/Anime Movies",
+                    "listSlug" : "latest-animation-anime-movies",
+                    "traktId" : 33123094,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Animated Shows",
+                    "listSlug" : "latest-animated-shows",
+                    "traktId" : 33123032,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "anime-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/Anime.png",
+              "title" : "Anime"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Based on a Book",
+                    "listSlug" : "based-on-a-book",
+                    "traktId" : 29348781,
+                    "username" : "jenniekns"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "based-on-a-book-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/BasedOnBook.png",
+              "title" : "Based on a Book"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "classic movies",
+                    "listSlug" : "classic-movies",
+                    "traktId" : 21874665,
+                    "username" : "stuacott"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "classics-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/Classics.png",
+              "title" : "Classics"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Comedy Movies",
+                    "listSlug" : "latest-comedy-movies",
+                    "traktId" : 33123123,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Comedy Shows",
+                    "listSlug" : "latest-comedy-shows",
+                    "traktId" : 33123136,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "comedy-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/Comedy.png",
+              "title" : "Comedy"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Creature Feature ~Monster Movies",
+                    "listSlug" : "creature-feature-monster-movies",
+                    "traktId" : 11137816,
+                    "username" : "Zambucca"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "creature-features-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/CreatureFeatures.png",
+              "title" : "Creature Features"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Crime",
+                    "listSlug" : "crime",
+                    "traktId" : 20770341,
+                    "username" : "garycrawfordgc"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Crime Shows",
+                    "listSlug" : "crime-shows",
+                    "traktId" : 20772104,
+                    "username" : "garycrawfordgc"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "crime-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/Crime.png",
+              "title" : "Crime"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Disaster",
+                    "listSlug" : "disaster",
+                    "traktId" : 30731033,
+                    "username" : "MadMapper"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "dark-fantasy-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/DarkFantasy.png",
+              "title" : "Dark Fantasy"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "disaster-epics-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/DisasterEpics.png",
+              "title" : "Disaster Epics"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Documentary Shows",
+                    "listSlug" : "latest-documentary-shows",
+                    "traktId" : 33122848,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Documentary Movies",
+                    "listSlug" : "latest-documentary-movies",
+                    "traktId" : 33122833,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "documentary-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/Documentary.png",
+              "title" : "Documentary"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Drama Movies",
+                    "listSlug" : "latest-drama-movies",
+                    "traktId" : 33123210,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Drama Shows",
+                    "listSlug" : "latest-drama-shows",
+                    "traktId" : 33123222,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "drama-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/Drama.png",
+              "title" : "Drama"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "dystopian-futures-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/DystopianFutures.png",
+              "title" : "Dystopian Futures"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "fantasy-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/Fantasy.png",
+              "title" : "Fantasy"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "fantasy-adventures-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/FantasyAdventures.png",
+              "title" : "Fantasy Adventures"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "gen-x-scares-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/GenXScares.png",
+              "title" : "Gen X Scares"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "History",
+                    "listSlug" : "history",
+                    "traktId" : 20770352,
+                    "username" : "garycrawfordgc"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "historical-epics-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/HistoricalEpics.png",
+              "title" : "Historical Epics"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Horror Movies",
+                    "listSlug" : "latest-horror-movies",
+                    "traktId" : 33123250,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Horror Shows",
+                    "listSlug" : "latest-horror-shows",
+                    "traktId" : 33123257,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "horror-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/Horror.png",
+              "title" : "Horror"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "international-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/International.png",
+              "title" : "International"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "kids-&-family-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/KidsFamily.png",
+              "title" : "Kids & Family"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "legal-dramas-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/LegalDramas.png",
+              "title" : "Legal Dramas"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "mystery-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/Mystery.png",
+              "title" : "Mystery"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "myths-&-legends-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/MythsAndLegends.png",
+              "title" : "Myths & Legends"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "period-dramas-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/PeriodDramas.png",
+              "title" : "Period Dramas"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "psychological-terror-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/PsychologicalTerror.png",
+              "title" : "Psychological Terror"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "reality-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/Reality.png",
+              "title" : "Reality"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "revenge-stories-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/RevengeStories.png",
+              "title" : "Revenge Stories"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "robots-&-ai-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/RobotsAI.png",
+              "title" : "Robots & A.I."
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "romance-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/Romance.png",
+              "title" : "Romance"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Sci-Fi Movies",
+                    "listSlug" : "latest-sci-fi-movies",
+                    "traktId" : 33123270,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Sci-Fi Shows",
+                    "listSlug" : "latest-sci-fi-shows",
+                    "traktId" : 33123276,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "sci-fi-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/SciFi.png",
+              "title" : "Sci-Fi"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "spies-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/Spies.png",
+              "title" : "Spies"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "superheroes-&-villians-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/Superheroes.png",
+              "title" : "Superheroes & Villians"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "supernatural-shocks-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/SupernaturalShocks.png",
+              "title" : "Supernatural Shocks"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "techno-thrillers-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/TechnoThrillers.png",
+              "title" : "Techno-Thrillers"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Thriller Movies",
+                    "listSlug" : "latest-thriller-movies",
+                    "traktId" : 33123316,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Thriller Shows",
+                    "listSlug" : "latest-thriller-shows",
+                    "traktId" : 33123324,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "thriller-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/Thriller.png",
+              "title" : "Thriller"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "treasure-hunts-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/TreasureHunts.png",
+              "title" : "Treasure Hunts"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "vhs-era-frightmares-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/VHSEra.png",
+              "title" : "VHS-Era Frightmares"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "War",
+                    "listSlug" : "war",
+                    "traktId" : 20770418,
+                    "username" : "garycrawfordgc"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "war-stories-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/WarStories.png",
+              "title" : "War Stories"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "western-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/Western.png",
+              "title" : "Western"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "whodunits-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/Whodunits.png",
+              "title" : "Whodunits"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "zombie-o-rama-folder",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/amcottre\/Fusion-JSON\/refs\/heads\/main\/tvOS26Genres\/ZombieORama.png",
+              "title" : "Zombie-O-Rama"
+            }
+          ]
+        }
+      },
+      "id" : "collection.5D4DA3F1-9650-4B07-9EF7-63E260C9EA76",
+      "title" : "Genres",
+      "type" : "collection.row"
+    },
+    {
+      "cacheTTL" : 1800,
+      "dataSource" : {
+        "kind" : "addonCatalog",
+        "payload" : {
+          "addonId" : "com.aiopicks.python.giammi",
+          "catalogId" : "movie::giammi__aiopicks-movie-movies-for-you",
+          "type" : "movie"
+        }
+      },
+      "id" : "catalog.57EE5938-758D-4630-9C60-B12ABE63CC15",
+      "limit" : 0,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Movies For You (Movies)",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 1800,
+      "dataSource" : {
+        "kind" : "addonCatalog",
+        "payload" : {
+          "addonId" : "com.aiopicks.python.giammi",
+          "catalogId" : "movie::giammi__aiopicks-movie-your-comfort-zone",
+          "type" : "movie"
+        }
+      },
+      "id" : "catalog.B16771AA-F292-4EF7-AD18-7909FA13F25B",
+      "limit" : 0,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Your Comfort Zone (Movies)",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 1800,
+      "dataSource" : {
+        "kind" : "addonCatalog",
+        "payload" : {
+          "addonId" : "com.aiopicks.python.giammi",
+          "catalogId" : "series::giammi__aiopicks-series-series-for-you",
+          "type" : "movie"
+        }
+      },
+      "id" : "catalog.A17585E0-1146-4441-9AAF-2B42107CA418",
+      "limit" : 0,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Series For You (Series)",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 1800,
+      "dataSource" : {
+        "kind" : "addonCatalog",
+        "payload" : {
+          "addonId" : "com.aiopicks.python.giammi",
+          "catalogId" : "movie::giammi__aiopicks-movie-you-missed-these",
+          "type" : "movie"
+        }
+      },
+      "id" : "catalog.F765D7F3-51EA-4D92-A6E1-113C02693C98",
+      "limit" : 0,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "You Missed These (Movies)",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 1800,
+      "dataSource" : {
+        "kind" : "addonCatalog",
+        "payload" : {
+          "addonId" : "com.aiopicks.python.giammi",
+          "catalogId" : "movie::giammi__aiopicks-movie-expand-your-horizons",
+          "type" : "movie"
+        }
+      },
+      "id" : "catalog.B86DA230-2624-4C99-A114-3978FBA22D1A",
+      "limit" : 0,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Expand Your Horizons (Movies)",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 1800,
+      "dataSource" : {
+        "kind" : "addonCatalog",
+        "payload" : {
+          "addonId" : "com.aiopicks.python.giammi",
+          "catalogId" : "movie::giammi__aiopicks-movie-your-top-genre",
+          "type" : "movie"
+        }
+      },
+      "id" : "catalog.430C52F4-CA03-4CD6-9711-BEAB5C9E31A4",
+      "limit" : 0,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Your Top Genre (Movies)",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 1800,
+      "dataSource" : {
+        "kind" : "addonCatalog",
+        "payload" : {
+          "addonId" : "com.aiopicks.python.giammi",
+          "catalogId" : "series::giammi__aiopicks-series-same-universe-different-story",
+          "type" : "movie"
+        }
+      },
+      "id" : "catalog.5C9D9DC6-ED95-40D6-B492-EFB30EB96728",
+      "limit" : 0,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Same Universe, Different Story (Series)",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 1800,
+      "dataSource" : {
+        "kind" : "tmdbDiscover",
+        "payload" : {
+          "dateFrom" : "1980-01-01",
+          "dateTo" : "2026-12-31",
+          "dateToIsPresent" : true,
+          "includeGenres" : [
+            27
+          ],
+          "releaseChannel" : "digital",
+          "releaseStatus" : "released",
+          "sortBy" : "primary_release_date.desc",
+          "type" : "movie"
+        }
+      },
+      "id" : "discover.971F650B-AA75-4838-BF29-0C2BEE9FA8CE",
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "sort" : "primary_release_date.desc",
+      "title" : "New Horror Movies",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "traktList",
+        "payload" : {
+          "listName" : "Best Mindfucks",
+          "listSlug" : "best-mindfucks",
+          "traktId" : 800238,
+          "username" : "BenFranklin"
+        }
+      },
+      "id" : "trakt.766BF6B6-881F-47AF-84AB-7460A9074B92",
+      "limit" : 50,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Best Mindfucks",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "traktList",
+        "payload" : {
+          "listName" : "Watchlist: Movies",
+          "listSlug" : "__watchlist_movies__",
+          "traktId" : -11,
+          "username" : "__me__"
+        }
+      },
+      "id" : "trakt.39DD4719-FB3C-48F7-B013-72D473B234CA",
+      "limit" : 50,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Watchlist: Movies",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "traktList",
+        "payload" : {
+          "listName" : "Watchlist: Series",
+          "listSlug" : "__watchlist_shows__",
+          "traktId" : -12,
+          "username" : "__me__"
+        }
+      },
+      "id" : "trakt.994A3620-03FE-4236-8DE9-E38B1195FBD7",
+      "limit" : 50,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Watchlist: Series",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "traktList",
+        "payload" : {
+          "listName" : "Movies - Recommendations [couchmoney.tv]",
+          "listSlug" : "movies-recommendations-couchmoney-tv",
+          "traktId" : 31349402,
+          "username" : "Giammi"
+        }
+      },
+      "id" : "trakt.8CBB4A95-D8CE-45CB-BF8A-EA857662C984",
+      "limit" : 50,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Movies - Recommendations [couchmoney.tv]",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 1800,
+      "dataSource" : {
+        "kind" : "traktRecommendations",
+        "payload" : {
+          "ignoreWatchlisted" : true,
+          "limit" : 20,
+          "type" : "movies"
+        }
+      },
+      "id" : "trakt.rec.0F83586C-7F37-45FC-A659-D8EFFEFB31C5",
+      "limit" : 20,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Recommended Movies",
+      "type" : "row.classic"
+    }
+  ]
+}
